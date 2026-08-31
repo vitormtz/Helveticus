@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Círculo externo -->
+    <item>
+        <shape android:shape="oval">
+            <stroke android:color="#000000" android:width="1dp" />
+            <size android:width="200dp" android:height="200dp" />
+        </shape>
+    </item>
+    <!-- Círculo médio -->
+    <item android:top="50dp" android:right="50dp" android:bottom="50dp" android:left="50dp">
+        <shape android:shape="oval">
+            <stroke android:color="#000000" android:width="1dp" />
+        </shape>
+    </item>
+    <!-- Círculo interno -->
+    <item android:top="90dp" android:right="90dp" android:bottom="90dp" android:left="90dp">
+        <shape android:shape="oval">
+            <stroke android:color="#000000" android:width="1dp" />
+        </shape>
+    </item>
+</layer-list>
